@@ -1,24 +1,11 @@
 name: prueba1
 on:
-
-
  push:
-
-
-    branches: [master]
+   branches: [master]
 jobs:
+ Prueba-Workflow:
 
-
-    Prueba-Workflow:
-
-
-       name: prueba-workflow 
-
-
-       runs-on: ubuntu-latest 
-
-
-       steps:
-
-
-         - run : echo "sgskdf"
+    name: prueba-workflow 
+    runs-on: ubuntu-latest 
+    steps:
+      - run : echo "sgskdf"
