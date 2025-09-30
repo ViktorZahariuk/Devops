@@ -1,0 +1,24 @@
+name: prueba1
+on:
+
+
+ push:
+
+
+    branches: [master]
+jobs:
+
+
+    Prueba-Workflow:
+
+
+       name: prueba-workflow 
+
+
+       runs-on: ubuntu-latest 
+
+
+       steps:
+
+
+         - run : echo "sgskdf"
